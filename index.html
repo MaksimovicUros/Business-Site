@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GreatApp</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <img class="location" src="pictures/location.png" alt="location">
+            <span>
+                Baker Street, London, 21 - UK
+            </span>
+            <div>
+                <img class="phone" src="pictures/phone.png" alt="telephone">
+                <span>+00123456789</span>
+                <img class="bell" src="pictures/bell.png" alt="bell">
+                <span>Open Time : All weeks 8:00 - 12:00</span>
+            </div>
+        </header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="pictures/logo.png" alt="logo">
+            </div>
+            <div class="hamburger">
+                <img src="pictures/hamburger.png" alt="hamburger menu" onclick="toggleMenu()">
+            </div>
+            <button class="mainButton">Request a quote</button>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" class="currentPage" onclick="currentLink(this)">home</a></li>
+                    <li><a href="#" onclick="currentLink(this)">about</a></li>
+                    <li><a href="#" onclick="currentLink(this)">services</a></li>
+                    <li><a href="#" onclick="currentLink(this)">blog</a></li>
+                    <li><a href="#" onclick="currentLink(this)">contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <section class="mainSection">
+
+        <div class="sliderContainer">
+            <img class="arrow leftArrow" src="pictures/leftArrow.png" alt="left arrow" onclick="changeSlide(-1)">
+            <div class="slides">
+                <img src="pictures/slide1.png" alt="slide Picture">
+            </div>
+            <div class="slides">
+                <img src="pictures/slide2.png" alt="slide Picture">
+            </div>
+            <div class="slides">
+                <img src="pictures/slide3.png" alt="slide Picture">
+            </div>
+            <div class="slides">
+                <img src="pictures/slide4.png" alt="slide Picture">
+            </div>
+            <img class="arrow rightArrow" src="pictures/rightArrow.png" alt="right arrow" onclick="changeSlide(1)">
+            <div class="dots">
+                <span class="dot" onclick="currentPage(1)"></span>
+                <span class="dot" onclick="currentPage(2)"></span>
+                <span class="dot" onclick="currentPage(3)"></span>
+                <span class="dot" onclick="currentPage(4)"></span>
+            </div>
+        </div>
+        <div class="businessMainSection">
+            <h1>Your Business Development</h1>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at eum hic 
+                <span class="hide">consequuntur
+                    eligendi maiores provident, quos amet tenetur accusamus nulla ipsa reiciendis iure
+                    architecto?</span></div>
+            <button>Try Now</button>
+        </div>
+    </section>
+    <section class="ourCompany">
+        <div class="ourCompanyImage">
+            <img src="pictures/ourCompany.png" alt="Our Company image">
+        </div>
+        <div class="ourCompanyText">
+            <h3>INNOVATION. PASSION. CREATIVITY.</h3>
+            <h1><span>OUR</span> COMPANY</h1>
+            <div class="ourCompanyDescription">
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quasi quas fugiat accusamus
+                    sint doloremque deserunt illum veritatis reiciendis. Fugit magni dicta voluptates iusto doloribus
+                    explicabo laboriosam, laboriosam sapiente officiis libero, porro soluta, nisi beatae. Officiis culpa
+                    cupiditate
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, a. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Ea, accusamus.
+                </span>
+                <div class="readMore"><a href="#">READ MORE</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="workResearch">
+        <div class="workResearchText">
+            <h2>
+                Our work is <span>more than research</span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores quisquam earum provident
+                necessitatibus nihil ducimus saepe molestias itaque nostrum impedit!</p>
+        </div>
+        <div class="workResearchPictures">
+            <div class="icon">
+                <img src="pictures/targetIcon.png" alt="target icon">
+                <h3>Awesome & Creative</h3>
+                <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+            </div>
+            <div class="icon">
+                <img src="pictures/IkonicaMegafon.png" alt="megaphone icon">
+                <h3>Development Field</h3>
+                <p>Get your blood tests delivered at home collect a sample from the news your blood tests</p>
+            </div>
+            <div class="icon">
+                <img src="pictures/incredibleTeamicon.png" alt="incredible team icon">
+                <h3>Incredible Team</h3>
+                <p>Get your blood tests delivered at home collect a sample from the news your blood tests</p>
+            </div>
+        </div>
+    </section>
+    <section class="ourHistory">
+        <div class="ourHistoryPicture">
+            <img src="pictures/ourHistory.png" alt="Our History picture">
+        </div>
+        <div class="ourHistoryText">
+            <h3>Elevate your financial <span class="hide">performances</span></h3>
+            <h1><span>OUR</span> HISTORY</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et, animi unde non consequatur est impedit
+                quisquam cupiditate nulla commodi quas dolore architecto exercitationem laboriosam! Quia aliquid eius
+                distinctio molestias totam magnam architecto, tempore iusto.</p>
+            <div class="readMore"><a href="#">READ MORE</a></div>
+        </div>
+    </section>
+    <section class="creativity">
+        <div>
+            <h3>But not only for your preformances</h3>
+            <h1>Creativity</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque modi, exercitationem ratione nisi
+                consectetur inventore necessitatibus fuga minus facilis libero aliquam maiores quibusdam eos unde quis
+                assumenda, culpa explicabo aliquid recusandae, harum sed error tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolor libero atque quasi temporibus
+                consequatur aliquid quis rerum pariatur nulla sapiente enim, ex fugiat iste ullam recusandae
+                voluptatibus aspernatur nisi itaque dicta, sint odio id hic doloremque. Eum excepturi voluptas esse,
+                quae dicta nemo explicabo. dicta, sint odio id hic. inventore necessitatibus fuga minus facilis </p>
+            <div class="readMore"><a href="#">READ MORE</a></div>
+        </div>
+    </section>
+    <section class="laptop">
+        <div class="vertText">
+            <p><span>what we</span><br>offer</p>
+        </div>
+        <div class="laptopImg">
+            <img src="pictures/laptop.png" alt="laptop">
+            <div class="laptopScreen">
+                <div>
+                    <h2>Why we best consulting office in London</h2>
+                    <p>Rapid solutions to the most compex business challenges with cooperative process-driven.</p>
+                    <p class="italic">We are an elite team of consultants whose mission is maximiza stakeholder value.
+                        From roadmap
+                        planning and solution implementation, to maintenance and support.</p>
+                    <img src="pictures/potpis.png" alt="potpis">
+                    <button class="screenBtn">SEE ALL SERVICES</button>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div class="mobileVersion hide"><p class="italic">We are an elite team of consultants whose mission is maximiza stakeholder value.
+            From roadmap
+            planning and solution implementation, to maintenance and support.</p>
+        <button class="screenBtn">SEE ALL SERVICES</button></div>
+    </section>
+    <div class="numbers">
+        <div>
+            <p class="num">7890</p>
+            <p class="text">COFFEE CUPS</p>
+        </div>
+        <div>
+            <p class="num">1M</p>
+            <p class="text">SUBSCRIBERS</p>
+        </div>
+        <div>
+            <p class="num">1509</p>
+            <p class="text">COSTUMERS</p>
+        </div>
+        <div>
+            <p class="num">5972</p>
+            <p class="text">PURCHASES</p>
+        </div>
+    </div>
+    <div class="startNow">
+        <span>Looking for a First-Class Business Plan Consultant</span>
+        <button>Start Now</button>
+    </div>
+    <section class="financialPlan">
+        <div class="financialPlanText">
+            <h3>Ready <span>to start?</span></h3>
+            <p>Get a free financial plan</p>
+        </div>
+        <div class="buttonIn">
+            <input type="text" name="address" id="address" placeholder="Your email">
+            <button>GET STARTED</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footerSectionOne">
+            <div class="contact">
+                <img class="footerLogo" src="pictures/logo.png" alt="Logo">
+                <div class="contactPhone">
+                    <p>Tel: (00) 123456789</p>
+                    <p>Fax: (00) 12345678</p>
+                </div>
+                <p>info@yourdomain.com</p>
+                <div class="socialIcons">
+                    <a href="https://www.linkedin.com"><img src="pictures/linkedin.png" alt="linkedin Logo"></a>
+                    <a href="https://www.facebook.com/"><img src="pictures/facebook.png" alt="facebook Logo"></a>
+                    <a href="https://twitter.com"><img src="pictures/twitter.png" alt="twitter Logo"></a>
+                    <a href="https://github.com/"><img src="pictures/github.png" alt="github Logo"></a>
+                </div>
+            </div>
+            <div class="links">
+                <div>
+                    <p> <a href="#">About us</a></p>
+                    <p> <a href="#">Blog</a></p>
+                    <p> <a href="#">Our Team</a></p>
+                    <p> <a href="#">Developers</a></p>
+                    <p> <a href="#">CRM Solutions</a></p>
+                    <p> <a href="#">Online Help</a></p>
+                </div>
+                <div>
+                    <p><a href="#">Services</a></p>
+                    <p><a href="#">How We Help</a></p>
+                    <p><a href="#">Partners</a></p>
+                    <p><a href="#">Where Are We</a></p>
+                    <p><a href="#">History</a></p>
+                </div>
+                <div>
+                    <p><a href="#">Support</a></p>
+                    <p><a href="#">Privacy Politics</a></p>
+                    <p><a href="#">Support 24/7</a></p>
+                    <p><a href="#">Get a Quote</a></p>
+                    <p><a href="#">Work With Us</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footerSectionTwo">
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Terms</a>
+            </div>
+            <span>&copy; 2020 Your Company Copyright</span>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

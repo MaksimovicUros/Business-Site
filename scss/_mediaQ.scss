@@ -1,0 +1,1966 @@
+@media only screen and (max-width: 1505px) {
+   .navbar {
+        nav {
+            ul {
+                li {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .ourCompany {
+        .ourCompanyImage {
+            margin-right: 10em;
+        }
+    }
+    footer {
+        .footerSectionOne {
+            padding: 8em 0 8em 15em;
+        
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .navbar {
+        nav {
+            ul {
+                li {
+                    margin-left: 2em;
+                }
+            }
+        }
+}
+    .ourCompany {
+        .ourCompanyImage {
+            margin-right: 6em;
+        }   
+    }
+}
+
+@media only screen and (max-width: 1392px) {
+    .mainButton {
+        padding: 1em 1em;
+    }
+    .navbar {
+        nav {
+            ul {
+                margin-right: 2em;
+            }
+        }
+    }
+    .mainSection {
+        .sliderContainer {
+            .slides {
+                img {
+                    width: 27em;
+                }
+            }
+        }
+    }
+    .ourCompany {
+        padding: 10em 6em;
+    }
+    .ourHistory {
+        .ourHistoryText {
+            width: 40%;
+            p {
+                width: 100%;
+            }
+        }
+    }
+    .laptop {
+        padding: 5em 7em;
+    }
+    .startNow {
+        padding: 2em 20em;
+    }
+    .financialPlan {
+        padding: 6em 12em;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    header {
+        padding: 2.5em 8em;
+    } 
+    .navbar {
+        padding: 4em 7em;
+    }
+    .mainSection {
+        padding: 8em 7em;
+        h1 {
+            font-size: 2.5em;
+        }
+    }
+    .ourCompany {
+        padding: 10em 3em;
+        .ourCompanyImage {
+            img {
+                width: 90%;
+            }
+        }
+    }
+    .workResearch {
+        padding: 8em 5em;
+    }
+    .ourHistory {
+        padding: 8em 6em;
+    }
+    .creativity {
+        padding: 6em 11em;
+    }
+    .laptop {
+        padding: 5em 3em;
+    }
+    .numbers {
+        padding: 5em 10em;
+    }
+    .startNow {
+        padding: 2em 18em;
+    }
+    .financialPlan {
+        padding: 6em 10em;
+    }
+    footer {
+        .footerSectionOne {
+            padding: 8em 0 8em 10em;
+        }
+        .footerSectionTwo {
+            padding: 1.5em 10em;
+        }
+    }
+} 
+
+@media only screen and (max-width: 1200px) {
+    header {
+        padding: 2.5em 7em;
+        font-size: 12px;
+    }
+    .navbar {
+        padding: 4em 5em;
+        nav {
+            ul {
+                li {
+                    margin-left: 1.5em;
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .logo {
+        img {
+            width: 90%;
+        }
+    }
+    .mainButton {
+        font-size: 12px;
+    }
+    .mainSection {
+        padding: 8em 5em;
+        .sliderContainer {
+            .slides {
+                img {
+                    width: 22em;
+                }
+            }
+        }
+    }
+    .ourCompany {
+        .ourCompanyImage {
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+        .ourCompanyText {
+            h1 {
+                font-size: 2.7em;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            .ourCompanyDescription {
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .workResearch {
+        .workResearchText {
+            p {
+                width: 100%;
+            }
+            h2 {
+                font-size: 2.5em;
+            }
+        }
+        .workResearchPictures {
+            text-align: center;
+            .icon {
+                width: 25%;
+                float: none;
+                display: inline-block;
+                img {
+                    width: 30%;
+                }
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    }
+    .ourHistory {
+        .ourHistoryPicture {
+            width: 50%;
+        }
+    }
+    .creativity {
+        padding: 6em 7em;
+    }
+    .laptop {
+        .vertText {
+            p {
+                font-size: 50px;
+                span {
+                    font-size: 31px;
+                }
+            }
+        }
+        .laptopImg {
+            .laptopScreen { 
+                div {
+                    width: 70%;
+                    img {
+                        width: 12%;
+                    }
+                    h2 {
+                        width: auto;
+                        margin-top: 2em;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .screenBtn {
+        padding: .7em 2em;
+    }
+    .startNow {
+        padding: 2em 16em;
+        span {
+            font-size: 14px;
+            line-height: 3em;
+        }
+        button {
+            padding: 1em 1.5em;
+        }
+    }
+    .financialPlan {
+        padding: 6em 7em;
+        .financialPlanText {
+            h3 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+        .buttonIn {
+            input {
+                &::placeholder {
+                    font-size: 18px;
+                }
+            }
+            button {
+                font-size: 12px;
+                top: 3em;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            padding: 8em 0 8em 7em;
+            .contact {
+                margin-right: 4em;
+                .footerLogo {
+                    width: 90%;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+            .links {
+                div {
+                    margin: auto 2em;
+                }
+                p {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .footerSectionTwo {
+            padding: 1.5em 7em;
+            span {
+                font-size: 11px;
+            }
+            div {
+                a {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    header {
+        padding: 2.5em 5em;
+        .location {
+            margin-right: .2em;
+            width: .7em;
+        }
+        .phone {
+            margin-right: .2em;
+            width: .7em;
+        }
+        .bell {
+            margin-right: .2em;
+            margin-left: 1.5em;
+            width: 1em;
+        }
+    }
+    .logo {
+        img {
+            width: 78%;
+        }
+    }
+    .navbar {
+        padding: 4em 4em;
+        nav {
+            ul {
+                li {
+                    line-height: 2.7em;
+                    a {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+    .mainButton {
+        font-size: 11px;
+    }
+    .mainSection {
+        padding: 8em 4em;
+        span {
+            font-size: 14px;
+        }
+        .sliderContainer {
+            .slides {
+                img {
+                    height: 22em;
+                    width: 19em;
+                }
+            }
+            .dots {
+                bottom: 13%;
+            }
+        }
+        .businessMainSection {
+            button {
+                padding: 1em 2em;
+            }
+        }
+    }
+    .ourCompany {
+        padding: 10em 2em;
+       .ourCompanyImage {
+           img {
+            width: 95%;
+           }
+       }
+       .ourCompanyText {
+           h1 {
+            font-size: 2.5em;
+           }
+           h3 {
+               font-size: 17px;
+           }
+           .ourCompanyDescription {
+                span {
+                    font-size: 11px;
+                }
+           }
+       }
+    }
+    .readMore {
+        font-size: 17px;
+    }
+    .workResearch {
+        padding: 8em 3em;
+        .workResearchText {
+            h2 {
+                font-size: 2.3em;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+        .workResearchPictures {
+            .icon {
+                width: 29%;
+                img {
+                    width: 25%;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .ourHistory {
+        .ourHistoryPicture {
+            
+            img {
+                width: 120%;
+            }
+        }
+        .ourHistoryText {
+            margin-right: 4em;
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: .8em;
+            }
+            h3 {
+                margin-bottom: .5em;
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .creativity {
+        h1 {
+            font-size: 2.5em;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    .laptop {
+        .vertText {
+            p {
+                font-size: 45px;
+                span {
+                    font-size: 28px;
+                }
+            }
+        }
+        .laptopImg {
+            .laptopScreen {
+                div {
+                    h2 {
+                        margin-bottom: 1em;
+                    }
+                    p {
+                        font-size: 11px;
+                    }
+                    img {
+                        margin: 1em auto;
+                    }
+                }
+            }
+            .screenBtn {
+                padding: 0.7em 1.5em;
+                font-size: 11px;
+            }
+        }
+    }
+    .numbers {
+        padding: 5em 4em;
+        .num {
+            font-size: 30px;
+        }
+        .text {
+            font-size: 11px;
+        }
+    }
+    .startNow {
+        padding: 2em 11em;
+       
+    }
+    .financialPlan {
+        padding: 6em 4em;
+        .financialPlanText {
+            h3 {
+                font-size: 30px;
+                margin-top: .6em;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            padding: 8em 0 8em 4em;
+            .contact {
+                .footerLogo {
+                    width: 85%;
+                }
+            }
+        }
+        .footerSectionTwo {
+            padding: 1.5em 4em;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) { 
+    header {
+        padding: 2.5em 4em;
+        font-size: 10px;
+    }
+    .navbar {
+        padding: 4em 3em;
+        nav {
+            ul {
+                margin-right: 1.5em;
+                li {
+                    line-height: 2em;
+                    margin-left: 1em;
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .mainButton {
+        font-size: 10px;
+    }
+    .logo {
+        width: 30%;
+        img {
+            width: 94%;
+        }
+    }
+    .mainSection {
+        padding: 5em 3em;
+        span {
+            font-size: 12px;
+        }
+        .businessMainSection {
+            button {
+                font-size: 12px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    }
+    .ourCompany {
+        padding: 9em 2em;
+        .ourCompanyImage {
+            display: inline-block;
+            img {
+                width: 100%;
+            }
+        }
+        .ourCompanyText {
+            display: inline-block;
+            width: 36%;
+            h3 {
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    }
+    .workResearch {
+        padding: 6em 2em;
+        .workResearchText {
+            h2 {
+                font-size: 2em;
+            }
+            p {
+                width: 99%;
+                font-size: 12px;
+            }
+        }
+        .workResearchPictures {
+            .icon {
+                width: 27%;
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .ourHistory {
+        padding: 6em 6em;
+        .ourHistoryPicture {
+            width: 48%;
+        }
+        .ourHistoryText {
+            h1 {
+                font-size: 2em;
+            }
+            h3 {
+                font-size: 14px;
+            }
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+    .creativity {
+        h1 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .laptop {
+        .vertText {
+            left: 8%;
+            p {
+                font-size: 40px;
+                span {
+                    font-size: 25px;
+                }
+            }
+        }
+        .laptopImg {
+            img {
+                width: 80%;
+            }
+            .laptopScreen {
+                width: 59%;
+                div {
+                    h2 {
+                        margin-top: 1.5em;
+                        font-size: 1em;
+                        width: 80%;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                }
+                .screenBtn {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .startNow {
+        padding: 2em 10em;
+        span {
+            font-size: 12px;
+        }
+        button {
+            font-size: 11px;
+        }
+    }
+    .financialPlan {
+        .buttonIn {
+            input {
+                height: 4em;
+                &::placeholder {
+                    font-size: 14px;
+                }
+            }
+            button {
+                font-size: 10px;
+                top: 4em;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            .contact {
+                width: 30%;
+                margin-right: 1.5em;
+                .footerLogo {
+                    width: 95%;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+    .navbar {
+        position: relative;
+        padding: 2em 2em;
+        nav {
+            position: absolute;
+            right: 7%;
+            background-color: #f7d3c3;
+            border-radius: 5px;
+            ul {
+                margin: 0;
+                li {
+                    a {
+                        font-size: 12px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    nav {
+        display: none;
+    }
+    .mainButton {
+        display: none;
+    }
+    .hamburger {
+        display: inline;
+        float: right;
+        line-height: 2.5em;
+        width: 2em;
+        img {
+            width: 100%;
+        }
+    }
+    .mainSection {
+        padding: 1em 2em 5em 2em;
+        .sliderContainer {
+            text-align: center;
+            float: none;
+            height: 26em;
+            .leftArrow {
+                float: left;
+            }
+            .rightArrow {
+                float: right;
+            }
+            .slides {
+                img {
+                    float: none;
+                    width: 60%;
+                }
+            }
+            .dots {
+                left: 43%;
+                bottom: 5%;
+            }
+        }
+        .businessMainSection {
+            width: 62%;
+            margin: auto;
+            text-align: center;
+            float: none;
+            h1 {
+                font-size: 3em;
+            }
+            div {
+                font-size: 16px;
+                font-weight: 600;
+                .hide {
+                    display: none;
+                }
+            }
+            button {
+                font-size: 16px;
+            }
+        }
+    }
+    .ourCompany {
+        text-align: center;
+        padding: 5em 2em;
+        .ourCompanyImage {
+            float: none;
+            display: block;
+            width: 100%;
+            img {
+                width: 35%;
+            }
+        }
+        .ourCompanyText {
+            display: block;
+            width: 100%;
+            text-align: center;
+            h3 {
+                margin-top: 2em;
+                font-size: 21px;
+            }
+            .ourCompanyDescription {
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .readMore {
+        font-size: 20px;
+        margin-top: 2em;
+    }
+    .workResearch {
+        padding: 2em 2em;
+        .workResearchText {
+            p {
+                font-size: 13px;
+                width: 100%;
+            }
+        }
+        .workResearchPictures {
+            .icon {
+                display: block;
+                width: 45%;
+                margin: auto;
+                margin-top: 3em;
+                h3 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .ourHistory {
+        .ourHistoryPicture {
+            float: none;
+            width: auto;
+            text-align: center;
+            img {
+                width: 75%;
+            }
+        }
+        .ourHistoryText {
+            float: none;
+            text-align: center;
+            width: 100%;
+            margin-top: 2em;
+            h3 {
+                font-size: 24px;
+            }
+            h1{
+                font-size: 2.5em;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        .hide {
+            display: inline;
+        }
+    }
+    .creativity {
+        padding: 2em 2em;
+        h3 {
+            font-size: 24px;
+            margin-bottom: .5em;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .laptop {
+        padding: 4em 0;
+        .vertText {
+            writing-mode: horizontal-tb;
+            transform: none;
+            position: static;
+            text-align: center;
+            margin-bottom: 2em;
+            p {
+                font-size: 50px;
+                span {
+                    font-size: 31px;
+                }
+            }
+        }
+        .laptopImg {
+            img {
+                width: 90%;
+            }
+            .laptopScreen {
+                width: 67%;
+                div {
+                    h2  {
+                        width: 100%;
+                        margin: 2em 0 1em 0;
+                        font-size: 1.5em;
+                    }
+                    p {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                    img {
+                        margin: 2em auto;
+                        width: 20%;
+                    }
+                    .italic {
+                        display: none;
+                    }
+                }
+                .screenBtn {
+                    display: none;
+                }
+            }
+        }
+        .mobileVersion {
+            display: block;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            .italic {
+                margin-bottom: 2em;
+                font-weight: 600;
+            }
+            .screenBtn {
+                font-size: 20px;
+            }
+        }
+    }
+    .numbers {
+        padding: 4em 1em;
+        div {
+            float: none;
+            width: auto;
+            margin-bottom: 3em;
+        }
+        .num {
+            font-size: 45px;
+            margin-bottom: 0;
+        }
+        .text {
+            font-size: 22px;
+            font-weight: 300;
+        }
+    }
+    .startNow {
+        text-align: center;
+        span {
+            display: block;
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 2em;
+        }
+        button {
+            float: none;
+            font-size: 18px;
+            border-radius: 3px;
+            padding: 1em 2.5em;
+        }
+    }
+    .financialPlan {
+        padding: 2em 1em;
+        .financialPlanText {
+            float: none;
+            text-align: center;
+            h3  {
+                font-size: 40px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        .buttonIn {
+            float: none;
+            width: 100%;
+            text-align: center;
+            button {
+                right: 3em;
+                top: 2.7em;
+                font-size: 13px;
+            }
+            input {
+                &::placeholder {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            padding: 2em 0;
+            .contact {
+                float: none;
+                text-align: center;
+                margin: auto;
+                width: 35%;
+                .footerLogo {
+                    width: 100%;
+                    margin-bottom: 1em;
+                }
+                p {
+                    font-size: 17px;
+                }
+                .socialIcons {
+                    img {
+                        height: 1.5em;
+                        margin-right: 1em;
+                        margin-left: 1em;
+                    }
+                }
+            }
+            .links {
+                div {
+                    float: none;
+                    text-align: center;
+                    margin: 2em auto;
+                }
+                p {
+                    line-height: 2em;
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .footerSectionTwo {
+            padding: 1.5em 0;
+            div {
+                float: none;
+                margin: auto;
+                width: 90%;
+                text-align: center;
+                a {
+                    margin: 0 2em;
+                    font-size: 15px;
+                }
+            }
+            span {
+                display: block;
+                text-align: center;
+                font-size: 15px;
+                margin-top: 2em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mainSection {
+        .businessMainSection {
+            h1 {
+                font-size: 2.8em;
+            }
+        }
+    }
+    .laptop {
+        .laptopImg {
+            .laptopScreen {
+                div {
+                    h2 {
+                        margin: 1em 0;
+                        font-size: 1.3em;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                    img {
+                        margin: 1.5em auto;
+                        width: 18%;
+                    }
+                }
+            }
+        }
+        .mobileVersion {
+            .screenBtn {
+                font-size: 18px;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            .contact {
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .logo {
+        width: 45%;
+        img {
+            width: 100%;
+            margin-top: 3px;
+        }
+    }
+    .mainSection {
+        .sliderContainer {
+          height: 19em;
+            .slides {
+                img {
+                    width: 60%;
+                    height: 16em;
+                }
+            }
+            .arrow {
+                margin-top: 8em;
+                width: 2em;
+            }
+        }
+        .businessMainSection {
+            width: 80%;
+            h1 {
+                font-size: 2em;
+            }
+            div {
+                font-size: 14px;
+            }
+            button {
+                font-size: 14px;
+            }
+        }
+    }
+    .ourCompany {
+        .ourCompanyImage {
+            img {
+                width: 50%;
+            }
+        }
+        .ourCompanyText {
+            h3 {
+                font-size: 18px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            .ourCompanyDescription {
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .workResearch {
+        .workResearchPictures {
+            .icon {
+                width: 70%;
+            }
+        }
+    }
+    .ourHistory {
+        padding: 6em 1em;
+        .ourHistoryText {
+            h3 {
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .creativity {
+        font-size: 16px;
+        h1 {
+            font-size: 26px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    .laptop {
+        .vertText {
+            p {
+                font-size: 40px;
+                span {
+                    font-size: 25px;
+                }
+            }
+        }
+        .laptopImg {
+            .laptopScreen {
+                div {
+                    h2 {
+                        font-size: 16px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                    img {
+                        margin: 1em auto;
+                    }
+                }
+            }
+        }
+        .mobileVersion {
+            .italic {
+                font-size: 12px;
+            }
+            .screenBtn {
+                font-size: 16px;
+            }
+        }
+    }
+    .numbers {
+        .num {
+            font-size: 35px;
+        }
+        .text {
+            font-size: 17px;
+        }
+    }
+    .startNow {
+        padding: 2em 6em;
+        button {
+            font-size: 17px;
+        }
+    }
+    .financialPlan {
+        .financialPlanText {
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+        .buttonIn {
+            button {
+                font-size: 12px;
+                top: 3em;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            .contact {
+                width: 80%;
+                .footerLogo {
+                    width: 60%;
+                }
+                p {
+                    font-size: 15px;
+                }
+            }
+            .links {
+                p {
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .footerSectionTwo {
+            div {
+                a {
+                    font-size: 13px;
+                }
+            }
+            span {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .logo {
+        width: 45%;
+        img {
+            width: 100%;
+        }
+    }
+    .hamburger {
+        img {
+            width: 80%;
+        }
+    }
+    .mainSection {
+        .sliderContainer {
+            height: 16em;
+            .slides {
+                img {
+                    width: 55%;
+                    height: 13em;
+                }
+            }
+            .arrow {
+                margin-top: 6em;
+                width: 1.5em;
+            }
+        }
+        .businessMainSection {
+            width: 75%;
+            h1 {
+                font-size: 2em;
+            }
+            div {
+                font-size: 13px;
+            }
+            button {
+                font-size: 14px;
+            }
+        }
+    }
+    .ourCompany {
+        .ourCompanyImage {
+            img {
+                width: 50%;
+            }
+        }
+        .ourCompanyText {
+            font-size: 16px;
+            h1 {
+                font-size: 26px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+        }
+    }
+    .workResearch {
+        .workResearchText {
+            h2 {
+                font-size: 26px;
+            }
+        }
+        .workResearchPictures {
+            .icon {
+                width: 80%;
+            }
+        }
+    }
+    .ourHistory {
+        padding: 6em 2em;
+        .ourHistoryText {
+            h3 {
+                font-size: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .creativity {
+        h3 {
+            font-size: 15px;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    .laptop {
+        .vertText {
+            p {
+                font-size: 40px;
+                span {
+                    font-size: 25px;
+                }
+            }
+        }
+        .laptopImg {
+            .laptopScreen {
+                div {
+                    h2 {
+                        margin: 1em 0;
+                        font-size: 1em;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                    img {
+                        margin: 1em auto;
+                    }
+                }
+            }
+        }
+        .mobileVersion {
+            font-size: 12px;
+            .screenBtn {
+                font-size: 16px;
+            }
+        }
+    }
+    .numbers {
+        padding: 3em 1em;
+        .num {
+            font-size: 35px;
+        }
+        .text {
+            font-size: 18px;
+        }
+    }
+    .startNow {
+        padding: 2em 6em;
+        button {
+            padding: 1em 2em;
+        }
+    }
+    .financialPlan {
+        .financialPlanText {
+            h3 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        .buttonIn {
+            button {
+                width: 25%;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            .contact {
+                width: 55%;
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .footerSectionTwo {
+            div {
+                a {
+                    margin: 0 1em;
+                    font-size: 14px;
+                }
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 10px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .mainSection {
+        .sliderContainer {
+            .dot {
+                margin-right: 5px;
+                width: 5px;
+                height: 5px;
+            }
+        }
+        .businessMainSection {
+            width: 100%;
+        }
+    }
+    .ourHistory {
+        .ourHistoryText {
+            h3 {
+                font-size: 14px;
+            }
+        }
+    }
+    .creativity {
+        h3 {
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 1.4em;
+        }
+        p {
+            font-size: 11px;
+        }
+    }
+    .laptop {
+        .vertText {
+            p {
+                font-size: 35px;
+                span {
+                    font-size: 22px;
+                }
+            }
+        }
+        .laptopImg {
+            .laptopScreen {
+                div {
+                    h2 {
+                        font-size: 15px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                    img {
+                        width: 16%;
+                    }
+                }
+            }
+        }
+        .mobileVersion {
+            .italic {
+                font-size: 11px;
+            }
+            .screenBtn {
+                font-size: 14px;
+            }
+        }
+    }
+    .numbers {
+        .num {
+            font-size: 30px;
+        }
+        .text {
+            font-size: 15px;
+        }
+    }
+    .startNow {
+        padding: 2em 4em;
+    }
+    .financialPlan {
+        .financialPlanText {
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            .contact {
+                width: 61%;
+                .footerLogo {
+                    width: 80%;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+            .links {
+                p {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .footerSectionTwo {
+            div {
+                a {
+                    font-size: 12px;
+                }
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .logo {
+        img {
+            margin-top: 5px;
+        }
+    }
+    .navbar {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .mainSection {
+        .sliderContainer {
+            .dots {
+                width: 25%;
+                left: 40%;
+            }
+        }
+        .businessMainSection {
+            width: 85%;
+        }
+    }
+    .ourCompany {
+        .ourCompanyText {
+            h3 {
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 22px;
+                margin-bottom: .5em;
+            }
+            .ourCompanyDescription {
+                span {
+                    display: inline-block;
+                    line-height: normal;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .workResearch {
+        .workResearchText {
+            p {
+                font-size: 12px;
+                display: inline-block;
+                line-height: normal;
+            }
+        }
+    }
+    .ourHistory {
+        .ourHistoryText {
+            h3 {
+                font-size:  14px;
+            }
+        }
+    }
+    .creativity {
+        h3 {
+            font-size: 14px;
+        }
+    }
+    .laptop {
+        .vertText {
+            p {
+                font-size: 35px;
+                span {
+                    font-size: 22px;
+                }
+            }
+        }
+        .laptopImg {
+            .laptopScreen {
+                div {
+                    h2 {
+                        font-size: 13px;
+                    }
+                    p {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+    .numbers {
+        .num {
+            font-size: 30px;
+        }
+        .text {
+            font-size: 16px;
+        }
+    }
+    .startNow {
+        padding: 2em 4em;
+        span {
+            margin-bottom: 1.5em;
+        }
+    }
+    .financialPlan {
+        .buttonIn {
+            input {
+                padding-left: 1.5em;
+            }
+            button {
+                font-size: 11px;
+                top: 3.5em;
+            }
+        }
+        .financialPlanText {
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            .contact {
+                width: 65%;
+                p {
+                    font-size: 14px;
+                }
+                .socialIcons {
+                    img {
+                        height: 1.2em;
+                    }
+                }
+                .footerLogo {
+                    width: 80%;
+                }
+            }
+            .links {
+                p {
+                    line-height: 1.8em;
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .footerSectionTwo {
+            div {
+                a {
+                    font-size: 12px;
+                }
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 327px) {
+    .navbar {
+        padding: 2em 1em;
+        nav {
+            ul {
+                li {
+                    margin-left: .5em;
+                    a {
+                        font-size: 9px;
+                    }
+                }
+            }
+        }
+    }
+    .hamburger {
+        img {
+            width: 70%;
+        }
+    }
+    .mainSection {
+        padding: 1em 2em 3em 2em;
+        .sliderContainer {
+            height: 12em;
+            .arrow {
+                margin-top: 5em;
+            }
+            .slides {
+                img {
+                    height: 10em;
+                }
+            }
+            .dot {
+                width: 5px;
+                height: 5px;
+                margin-right: 2px;
+            }
+        }
+        .businessMainSection {
+            h1 {
+                font-size: 1.5em;
+            }
+            div {
+                font-size: 11px;
+            }
+            button {
+                font-size: 12px;
+            }
+        }
+    }
+    .ourCompany {
+        padding: 3em 2em;
+        .ourCompanyText {
+            h3 {
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+        }
+    }
+    .workResearch {
+        padding: 2em 1em;
+        .workResearchText {
+            h2 {
+                font-size: 22px;
+            }
+        }
+        .workResearchPictures {
+            .icon {
+                h3 {
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .ourHistory {
+        .ourHistoryText {
+            h3 {
+                font-size: 12px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 12px;
+                display: inline-block;
+                line-height: normal;
+            }
+        }
+    }
+    .readMore {
+        font-size: 18px;
+    }
+    .creativity {
+        padding: 2em 1em;
+        h3 {
+            font-size: 12px;
+        }
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            display: inline-block;
+            line-height: normal;
+            font-size: 11px;
+        }
+    }
+    .laptop {
+        .vertText {
+            p {
+                font-size: 30px;
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+        .laptopImg {
+            .laptopScreen {
+                div {
+                    h2 {
+                        font-size: 12px;
+                    }
+                    p {
+                         font-size: 9px;
+                    }
+                }
+            }
+        }
+        .mobileVersion {
+            .italic {
+                font-size: 11px;
+            }
+            .screenBtn {
+                font-size: 15px;
+            }
+        }
+    }
+    .numbers {
+        .num {
+            font-size: 25px;
+        }
+        .text {
+            font-size: 14px;
+        }
+    }
+    .startNow {
+        span {
+            font-size: 13px;
+        }
+        button {
+            font-size: 15px;
+        }
+    }
+    .financialPlan {
+        .financialPlanText {
+            h3 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+        .buttonIn {
+            input {
+                &::placeholder {
+                    font-size: 14px;
+                }
+            }
+            button {
+                font-size: 10px;
+                top: 4.1em;
+            }
+        }
+    }
+    footer {
+        .footerSectionOne {
+            .contact {
+                width: 66%;
+                .footerLogo {
+                    width: 75%;
+                }
+                p {
+                    font-size: 12px;
+                }
+                .socialIcons {
+                    img {
+                        margin-right: 0.8em;
+                        margin-left: 0.8em;
+                    }
+                }
+            }
+            .links {
+                p {
+                    line-height: 1.5em;
+                    a {
+                        font-size: 12px;
+                        
+                    }
+                }
+            }
+        }
+        .footerSectionTwo {
+            div {
+                a {
+                    font-size: 10px;
+                }
+            }
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+}
